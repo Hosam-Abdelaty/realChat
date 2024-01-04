@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+  </head>
+  <body>
+    <h2>Chat Messages</h2>
+    <div id="broad"></div>
+    <div id="chat"></div>
+    <hr />
+    <div>
+      <label for="userName">User Name :</label>
+      <input type="text" name="userName" id="userName" /><br />
+      <br />
+
+      <textarea
+        name="message"
+        id="message"
+        placeholder="Enter Your Message.."
+        cols="100"
+        rows="10"
+      ></textarea>
+      <button id="send">Send</button>
+    </div>
+    <script src="./client.js"></script>
+  </body>
+</html>
