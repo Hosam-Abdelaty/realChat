@@ -1,4 +1,4 @@
-var socket = io.connect("http://localhost:5000");
+var socket = io.connect("https://real-time-app-0214.onrender.com/");
 
 var userName = document.getElementById("userName");
 var message = document.getElementById("message");
